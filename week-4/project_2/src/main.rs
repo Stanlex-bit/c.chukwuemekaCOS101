@@ -15,19 +15,19 @@ fn main()
 
     if experience == true && age >= 40 
     {
-        println!("incentive of employee is 1_560_000");
+        println!("incentive of employee is 1,560,000");
     }
     else if experience == true && age >= 30 && age < 40
     {
-        println!("incentive of employee is 1_480_000");
+        println!("incentive of employee is 1,480,000");
     }
     else if experience == true && age < 28
     {
-        println!("incentive of employee is 1_300_000");
+        println!("incentive of employee is 1,300,000");
     }
-    else if experience == false
+    else if experience == false 
     {
-        println!("incentive of employee is 100_000");
+        println!("incentive of employee is 100,000");
     }
 }
     
