@@ -7,4 +7,5 @@ fn main() {
     file.read_to_string(&mut contents).unwrap();
     println!("{}", contents);
 
+
 }
