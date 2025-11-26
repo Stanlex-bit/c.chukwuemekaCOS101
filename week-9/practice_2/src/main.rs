@@ -1,12 +1,10 @@
-use std::fs::File;
-use std::io::{self, Read};
+use std::io::Read;
 
-fn main() -> io::Result<()> {
-    let mut file = File::open("welcome_message.txt")?;
+fn main() {
+    
+    let mut file = std::fs::File::open("welcome_message.txt").unwrap();
     let mut contents = String::new();
-    file.read_to_string(&mut contents)?;
-
+    file.read_to_string(&mut contents).unwrap();
     println!("{}", contents);
 
-    
 }
