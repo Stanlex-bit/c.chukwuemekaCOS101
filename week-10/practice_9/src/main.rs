@@ -20,6 +20,7 @@ fn main() {
     //print the rectangle's area
     println!("width is {} \n height is {} \n area of Rectangle
         is {}",small.width,small.height,small.area());
+
 }
     
 
