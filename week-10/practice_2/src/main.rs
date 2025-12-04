@@ -16,5 +16,6 @@ fn main(){
 
 fn display(v:Vec<i32>){
     println!("inside display {:?}",v);
+
 }
 
