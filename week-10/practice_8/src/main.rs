@@ -24,4 +24,5 @@ fn main() {
 fn display ( emp:Employee){
     println!("Name is :{} company is {} age is 
         {}",emp.ceo,emp.company,emp.age);
+
 }
