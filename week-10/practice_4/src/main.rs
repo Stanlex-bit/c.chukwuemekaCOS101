@@ -11,4 +11,5 @@ fn main() {
 
 fn print_vector(x:Vec<i32>){
     println!("Inside print_vector function {:?}",x);
+
 }
